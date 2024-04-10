@@ -1,0 +1,123 @@
+body{
+    background-color: rgb(109, 37, 37);
+}
+.rubik-moonrocks-regular {
+    font-family: "Rubik Moonrocks", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+h1{
+    text-align: center;
+    font-size: 35px;
+    background-color: rgb(108, 211, 77);
+    padding: 10px;
+}
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+h2{
+    text-align: center;
+    color: black;
+}
+.flex_contenedor {
+    display: flex;
+}
+*{
+    padding: 5px;
+    margin: 5px;
+}
+.flex_conten1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px solid rgb(238, 230, 230);
+    width: 270px;
+    height: 1525px;
+    
+}
+.flex-box{
+    flex-direction: column;
+    background-color: rgb(218, 152, 128);
+    width: 250px;
+    flex-grow: 1;
+    
+    
+}
+img{
+    height: 250px;
+    width: 210px;
+    box-shadow: black 5px 5px 8px;
+}
+p{
+    text-align: justify;
+    font-size: 20px;
+    color: beige;
+}
+.flex_conten2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px solid rgb(238, 230, 230);
+    
+}
+.flex-box2 {
+    background-color: rgb(24, 37, 80);
+    
+}
+h3{
+    text-align: center;
+    font-size: 35px;
+}
+.kaushan-script-regular {
+    font-family: "Kaushan Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+h4 {
+    text-align: left;
+    font-size: 30px;
+}
+.flex-conten3{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    border: 3px solid rgb(238, 230, 230);
+    height: 1360px;
+
+}
+@media screen and (max-width: 450px) {
+    body {
+        background-color: rgb(68, 24, 77);
+        .flex_conten1{
+            flex-direction: row;
+        }
+        .flex_conten2{
+            flex-direction: row;
+        }
+        .flex-conten3{
+            flex-direction: row;
+        }
+        
+    }
+}
+@media screen and (min-width: 850px) {
+    body {
+        background-color: rgb(5, 5, 5);
+        .flex_conten1 {
+            flex-direction: row;
+        }
+        .flex_conten2{
+            flex-direction: row;
+        }
+        .flex-conten3{
+            flex-direction: row;
+        }
+
+        }
+}
